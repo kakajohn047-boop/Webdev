@@ -1,0 +1,85 @@
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;              /* FULL WIDTH */
+    margin-bottom: 30px;
+}
+
+/* Image */
+.profile {
+    width: 240px;
+    height: 220px;  
+    min-width: 150px;
+    border: 3px solid red;
+}
+
+/* Text fills the rest of the screen */
+.about-text {
+    flex: 1;                 
+}
+
+/* Align heading with top of image */
+.about-text h2 {
+    margin-top: 0;
+}
+
+/* Paragraph rules */
+p {
+    line-height: 30px;
+    text-indent: 30px;
+}
+
+.no-indent {
+    text-indent: 0;
+}
+
+
+/* Navigation bar */
+.nav {
+    list-style: none;       
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;           /* puts everything on one line */
+    gap: 15px;               /* spacing between links */
+}
+
+/* Each nav item */
+.nav li {
+    display: inline;         /* keeps items inline */
+}
+
+/* Link styling */
+.nav a {
+    text-decoration: none;
+}
+
+
+.icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+
+    border: 3px solid rgb(0, 0, 0);   /* border added */
+    padding: 2px;              /* space so icon doesn’t touch border */
+}
+
+
+.icon2{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+
+    border: 3px solid rgb(57, 47, 189);   /* border added */
+    padding: 2px;              /* space so icon doesn’t touch border */
+}
+
+
+.icon3 {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+
+    border: 3px solid rgb(155, 29, 29);   /* border added */
+    padding: 2px;              /* space so icon doesn’t touch border */
+}
