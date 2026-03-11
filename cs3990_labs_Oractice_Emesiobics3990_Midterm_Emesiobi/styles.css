@@ -7,12 +7,11 @@
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 1fr 120px;
     grid-template-areas:
         "main right"
-        "footer .";
+        "footer right";
     height: 100vh;
-    width: 100%;
 }
 
 
@@ -22,12 +21,11 @@
     display: grid;
     place-items: center;
 }
-.main img {
-    max-width: 150%;
-    height: 150px;
-    display: block;
-}
 
+.main img {
+    max-width: 100%;
+    height: auto;
+}
 .right {
     grid-area: right;
     background: #aa4b4b;
